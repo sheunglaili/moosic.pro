@@ -1,0 +1,29 @@
+name: Feature Request
+description: Request for a new feature!
+titie: "[Feature Request]"
+labels: ["feature-request"]
+body: 
+- type: markdown
+  attributes:
+    value: | 
+      Thanks for taking the time to fill out this feature request form! 
+- type: textarea
+  id: feature
+  attributes:
+    label: What feature would you like to request ? 
+    description: Please also tell us on a scale of 1-10 how much would you love to see it happening ? 
+    placeholder: Transcribe the composition in my mind!
+  validations:
+    required: true
+- type: textarea
+  id: expect-date
+  attributes: 
+    label: How urgent do you think this is needed ? 
+    placeholder: NOW!!!!
+  validations:
+    required: false
+- type: markdown
+  attributes: 
+    value: |
+      We'll review this request ASAP and get back to you! In the meantime, please continue enjoy Moosic!
+  
