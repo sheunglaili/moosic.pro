@@ -1,0 +1,14 @@
+name: Feedback
+description: Feedback to our apps and what we could do better!
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feedback form!
+  - type: textarea
+    id: feedback
+    attributes:
+      label: How did we do? 
+      description: Please let us know what you like and most importantly what you do not like
