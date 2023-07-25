@@ -1,6 +1,6 @@
 name: Feature Request
 description: Request for a new feature!
-titie: "[Feature Request]"
+title: "[Feature Request]"
 labels: ["feature-request"]
 body: 
 - type: markdown
